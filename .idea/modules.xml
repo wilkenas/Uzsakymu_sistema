@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KASMDCvalgyklosuzsakymusistema.iml" filepath="$PROJECT_DIR$/KASMDCvalgyklosuzsakymusistema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uzsakymu_sistema.iml" filepath="$PROJECT_DIR$/Uzsakymu_sistema.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

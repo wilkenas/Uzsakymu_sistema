@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Store user type
-            intent.putExtra("UserType", USER_TEACHER);
+            intent.putExtra("UserType", userType);
 
             // Launch activity
             startActivity(intent);
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(); // STUB
 
             // Store user type
+            //o gal cia nereikia jokio userType perduot? userType butu grazintas kaip activityResult is loginActivity
             intent.putExtra("UserType", USER_TEACHER);
 
             // Launch activity
