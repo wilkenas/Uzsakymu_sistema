@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
+    // User type constants
     public static final int USER_TEACHER = 100;
     public static final int USER_KITCHEN = 101;
 
@@ -62,11 +63,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
             // Create login activity intent
-            Intent intent = new Intent(); // STUB
-
-            // Store user type
-            //o gal cia nereikia jokio userType perduot? userType butu grazintas kaip activityResult is loginActivity
-            intent.putExtra("UserType", USER_TEACHER);
+            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
 
             // Launch activity
             startActivity(intent);
