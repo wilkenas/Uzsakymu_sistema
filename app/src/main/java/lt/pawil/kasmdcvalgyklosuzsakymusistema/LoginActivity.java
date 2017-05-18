@@ -15,5 +15,6 @@ public class LoginActivity extends AppCompatActivity {
         Tikrinti useri per Firebase ir priloginus iskart nuskaityti usertype
         pagal user type numesti i reikiama activity (valgykos arba aukletoju)
          */
+
     }
 }
